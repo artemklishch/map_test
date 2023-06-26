@@ -1,0 +1,15 @@
+.App {
+  min-height: 100vh;
+  display: flex !important;
+  flex-direction: column;
+  &__wrapGrid {
+    flex-grow: 1;
+    &_leftColumn {
+      display: flex;
+      flex-direction: column !important;
+      justify-content: space-between;
+      max-height: 100vh;
+      overflow-y: auto;
+    }
+  }
+}

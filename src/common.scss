@@ -1,0 +1,11 @@
+@mixin buttonNavigation($bgColor, $fWeight) {
+  background-color: $bgColor !important;
+  margin-bottom: 4px !important;
+  &:hover {
+    opacity: 0.5;
+  }
+  & > div > span {
+    text-align: center;
+    font-weight: $fWeight !important;
+  }
+}

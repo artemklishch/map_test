@@ -1,0 +1,19 @@
+@import "../../common.scss";
+
+.LevelsList {
+  position: relative;
+  margin-bottom: 100px !important;
+}
+
+.itemButton {
+  @include buttonNavigation(gray, 900);
+}
+.collapseBlock {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  width: 100%;
+  &__itemDropDownBtn {
+    @include buttonNavigation(lightgray, 500);
+  }
+}

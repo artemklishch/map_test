@@ -1,0 +1,4 @@
+export const GREAT_BRITAIN_POSTION = [54.251186, -4.463196];
+export const DEFAULT_ZOOM = 6;
+export const CHOOSEN_ONE_LEVEL_ZOOM = 7;
+export const CHOOSEN_SECOND_LEVEL_ZOOM = 9;
